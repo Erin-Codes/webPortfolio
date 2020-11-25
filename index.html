@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+    <html lang "en">
+    
+        <head>
+            <meta charset="UFT-8">
+            <meta name="viewport" content="width=device-width, intitial-scale=1.0">
+            <title>DevLiano Portfolio Website</title>
+            <link rel="stylesheet" 
+            href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+            <link rel="stylesheet" 
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" 
+            integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" 
+            crossorigin="anonymous" />
+            <link rel="stylesheet" href="CSS/style.css" >
+            <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap"
+            rel="stylesheet">
+        </head>
+
+        <body>
+            <header>
+                <div class="logo">
+                    <img src="img/preview.png" alt="">
+                </div>
+                <button class="nav-toggle" aria-label="toggle navigation">
+                    <span class="hamburger"></span>
+                </button>
+                <nav class="nav">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                        <li class="nav__item"><a href="#services" class="nav__link">My Services</a></li>
+                        <li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
+                        <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
+                    </ul>
+                </nav>
+            </header>
+
+
+            <!-- My intro section-->
+            <section class="intro" id="home">
+                <h1 class="sectio__title section__title--intro">
+                    Hi, I am <strong>Liano Naidoo</strong>
+                </h1>
+                <p class="section__subtitle section__subtitle--intro">back-end dev  </p>
+                <img src="img/dev-liano-01.jpg" alt="An image of Liano smiling" class="intro__img">
+            </section>
+
+            <!--My Skills section-->
+            <section class="my-services" id="my-services">
+                <h2 class = "section__title section__title--services">What I do</h2>
+                <div class="services">
+                    <div class="service">
+                        <h3>Design + Development</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta voluptatibus, esse delectus vitae fugit ipsam molestiae explicabo, vero quas a tempore possimus alias at enim numquam saepe? Suscipit, natus repudiandae?</p>
+                    </div> <!-- /service-->
+
+                    <div class="service">
+                        <h3>Service2</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id corporis eaque dicta, tempora, eligendi aliquam vero excepturi voluptatem ipsa esse incidunt est, nam quis ea autem optio amet distinctio quas.</p>
+                    </div> <!-- /service-->
+
+                    <div class="service">
+                        <h3>Service3</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam quod cum qui earum sed dolorem perferendis reprehenderit eligendi natus perspiciatis expedita atque nulla non consequatur voluptatibus animi provident, laboriosam possimus!</p>
+                    </div> <!-- /service-->     
+                </div> <!-- /services-->
+                
+                <a href="#work" class="btn">My Work</a>
+
+            </section>
+
+            <!--About Me-->
+            <section class="about-me" id="about">
+                <h2 class="section__title section__title--about">Who I am</h2>
+                <p class= "section__subtitle section__subtitle--about"> Software Dev from Eastern Cape</p>
+
+                <div class="about-me__body">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci quisquam mollitia voluptate numquam maiores. Nostrum adipisci, consequuntur eaque non, id quod magnam ab nemo vero est sint nisi harum dolorum!</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus reiciendis nisi rerum, dolorem accusantium deleniti modi quasi facilis repellat in fugit nobis quae, laudantium blanditiis? Modi ratione tempore voluptates praesentium.</p>
+                </div>
+                <img src="img/dev-liano-02.jpg" alt="Liano with his arms folded" class="about-me__img">
+            </section>
+
+            <!--My Work-->
+            <section class="my-work" id="work">
+                <h2 class="section__title--work">My work </h2>
+                <p class="section__subtitle--work">Selection of my range of work</p>
+                <div class="portfolio">
+                    <a href="#" class="portfolio__item">
+                        <img src="img/portfolio-01.jpg" alt="" class="portfolio__img">
+                    </a>
+                    
+                    <!-- Portfolio item 02 -->
+                    <a href="#" class="portfolio__item">
+                        <img src="img/portfolio-02.jpg" alt="" class="portfolio__img">
+                    </a>
+                    
+                    <!-- Portfolio item 03 -->
+                    <a href="#" class="portfolio__item">
+                        <img src="img/portfolio-03.jpg" alt="" class="portfolio__img">
+                    </a>
+                    
+                    <!-- Portfolio item 04 -->
+                    <a href="#" class="portfolio__item">
+                        <img src="img/portfolio-04.jpg" alt="" class="portfolio__img">
+                    </a>
+                    
+                    <!-- Portfolio item 05 -->
+                    <a href="#" class="portfolio__item">
+                        <img src="img/portfolio-05.jpg" alt="" class="portfolio__img">
+                    </a>
+                    
+                    <!-- Portfolio item 06 -->
+                    <a href="#" class="portfolio__item">
+                        <img src="img/portfolio-06.jpg" alt="" class="portfolio__img">
+                    </a>    
+                </div>
+            </section>
+
+             <!--Footer-->
+             <footer class="footer">
+                <a href="mailto:liano@criptext.com" class="footer__link">liano@criptext.com</a>
+                <ul class="social-list">
+                    <li class="social-list__item">
+                        <a class="social-list__link" href="https://www.linkedin.com/in/liano-naidoo-7176171b1/"><i class="fab fa-linkedin"></i></a></li>
+                    <li class="social-list__item"><a class="social-list__link" 
+                    href="https://github.com/Erin-Codes"><i class="fab fa-github"></i></a></li>                     
+                </ul>
+            </footer>
+
+            <script src="js/index.js"></script>
+        </body>
+    </html>
